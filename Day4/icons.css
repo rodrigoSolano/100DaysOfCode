@@ -1,0 +1,155 @@
+:root {
+  --size: 7;
+  --color_close_icon: hsl(0, 0%, 20%);
+}
+
+/*Info Icon*/
+.gg-info {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: calc(20em / var(--size));
+  height: calc(20em / var(--size));
+  border: calc(2em / var(--size)) solid;
+  border-radius: calc(40em / var(--size));
+}
+.gg-info::after,
+.gg-info::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: calc(3em / var(--size));
+  width: calc(2em / var(--size));
+  background: currentColor;
+  left: calc(7em / var(--size));
+}
+.gg-info::after {
+  bottom: calc(2em / var(--size));
+  height: calc(8em / var(--size));
+}
+.gg-info::before {
+  height: calc(2em / var(--size));
+  top: calc(2em / var(--size));
+}
+
+/*Close Icon*/
+.gg-close {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: calc(22em / var(--size));
+  height: calc(22em / var(--size));
+  border: calc(2em / var(--size)) solid transparent;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.gg-close::after,
+.gg-close::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  width: calc(16em / var(--size));
+  height: calc(2em / var(--size));
+  background: var(--color_close_icon);
+  transform: rotate(45deg);
+  border-radius: calc(5em / var(--size));
+  top: calc(8em / var(--size));
+  left: calc(1em / var(--size));
+}
+
+.gg-close::after {
+  transform: rotate(-45deg);
+}
+
+/*Succes Icon*/
+.gg-check-o {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: calc(22em / var(--size));
+  height: calc(22em / var(--size));
+  border: calc(2em / var(--size)) solid;
+  border-radius: 100em;
+}
+.gg-check-o::after {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  left: calc(3em / var(--size));
+  top: calc(-1em / var(--size));
+  width: calc(6em / var(--size));
+  height: calc(10em / var(--size));
+  border-color: currentColor;
+  border-width: 0 calc(2em / var(--size)) calc(2em / var(--size)) 0;
+  border-style: solid;
+  transform-origin: bottom left;
+  transform: rotate(45deg);
+}
+
+/*Closec Icon*/
+.gg-closec {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: calc(22em / var(--size));
+  height: calc(22em / var(--size));
+  border: calc(2em / var(--size)) solid black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.gg-closec::after,
+.gg-closec::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  width: calc(16em / var(--size));
+  height: calc(2em / var(--size));
+  background: black;
+  transform: rotate(45deg);
+  border-radius: calc(5em / var(--size));
+  top: calc(8em / var(--size));
+  left: calc(1em / var(--size));
+}
+
+.gg-closec::after {
+  transform: rotate(-45deg);
+}
+
+/*Danger Icon*/
+.gg-danger {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: calc(20em / var(--size));
+  height: calc(20em / var(--size));
+  border: calc(2em / var(--size)) solid;
+  border-radius: calc(40em / var(--size));
+}
+.gg-danger::after,
+.gg-danger::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: calc(3em / var(--size));
+  width: calc(2em / var(--size));
+  background: currentColor;
+  left: calc(7em / var(--size));
+}
+.gg-danger::after {
+  top: calc(2em / var(--size));
+  height: calc(8em / var(--size));
+}
+.gg-danger::before {
+  height: calc(2em / var(--size));
+  bottom: calc(2em / var(--size));
+}
