@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Search Wiget</title>
+</head>
+
+<body>
+
+    <div id="app-cover">
+        <div id="app">
+            <form method="get" action="">
+                <div id="f-element">
+                    <div id="inp-cover"><input type="text" name="query"
+                            placeholder="Type something to search ..."
+                            autocomplete="off"></div>
+                </div>
+                <button type="submit" class="shadow"><i
+                        class="fas fa-search"></i></button>
+            </form>
+        </div>
+        <div id="layer" title="Click the blue area to hide the form"></div>
+        <div id="init"></div>
+    </div>
+
+    <script src="jquery.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
