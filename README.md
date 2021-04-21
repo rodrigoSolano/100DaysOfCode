@@ -10,3 +10,5 @@ The 100 days of code challenge
 | 4 | Toast notification | Simple toast notification with CSS and JavaScript | CSS,JavaScript | Done |
 | 5 | Search widget | Search Widget whit Css and JavaScript | CSS,JavaScript | Done |
 | 6 | Button ripple efect | Simple ripple efect | CSS,JavaScript | Done |
+| 7 | Blur loading image | Blur loading image with CSS and JS | CSS,JavaScript | Done |
+| 8 | Infinite scroll page | Infinite scrolling page with JavaScript library called Intersection Observer and Pixabay API. | CSS,JavaScript | Done |
