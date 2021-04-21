@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>FAQ Collapse</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="faqs__title">Frequently <br />Asked Questions</h1>
+      <div class="faqs-container">
+        <div class="faq">
+          <div class="faq__title">
+            <h2>What is JavaScript</h2>
+            <i class="bx bxs-chevron-down"></i>
+          </div>
+          <div class="toggle-container" id="toggle-1">
+            <p>A programming language</p>
+          </div>
+        </div>
+
+        <div class="faq">
+          <div class="faq__title">
+            <h2>What is CSS</h2>
+            <i id="3" class="bx bxs-chevron-down"></i>
+          </div>
+          <div class="toggle-container" id="toggle-2">
+            <p>Cascading Style Sheets</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
