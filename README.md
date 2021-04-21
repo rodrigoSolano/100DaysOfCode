@@ -13,3 +13,4 @@ The 100 days of code challenge
 | 7 | Blur loading image | Blur loading image with CSS and JS | CSS,JavaScript | Done |
 | 8 | Infinite scroll page | Infinite scrolling page with JavaScript library called Intersection Observer and Pixabay API. | CSS,JavaScript | Done |
 | 9 | FAQ collapse | FAQ collapse with CSS and JavaScript | CSS,JavaScript | Done |
+| 10 |  Sticky Navigation Bar | Sticky Navigation Bar On Scroll Using Html, CSS & JS | CSS,JavaScript | Done |
