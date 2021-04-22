@@ -1,0 +1,28 @@
+.section {
+  width: 100vw;
+  height: 100vh;
+}
+
+#one {
+  background-color: #542e71;
+  font-size: 5rem !important;
+  padding: 1rem;
+}
+
+#two {
+  background-color: #fb3640;
+  font-size: 5rem !important;
+  padding: 1rem;
+}
+
+#three {
+  background-color: #fdca40;
+  font-size: 5rem !important;
+  padding: 1rem;
+}
+
+#four {
+  background-color: #a799b7;
+  font-size: 5rem !important;
+  padding: 1rem;
+}
