@@ -1,6 +1,7 @@
 # 100DaysOfCode
+
 Start Date 11/04/2021
-Estimated end date    June of 2021
+Estimated end date June of 2021
 The 100 days of code challenge
 | Day | Project | Description | Language | Status |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -13,6 +14,7 @@ The 100 days of code challenge
 | 7 | Blur loading image | Blur loading image with CSS and JS | CSS,JavaScript | Done |
 | 8 | Infinite scroll page | Infinite scrolling page with JavaScript library called Intersection Observer and Pixabay API. | CSS,JavaScript | Done |
 | 9 | FAQ collapse | FAQ collapse with CSS and JavaScript | CSS,JavaScript | Done |
-| 10 |  Sticky Navigation Bar | Sticky Navigation Bar On Scroll Using Html, CSS & JS | CSS,JavaScript | Done |
-| 11 |  Collapse Menu | Collapsible left menu using Html, CSS & JS | CSS,JavaScript | Done |
+| 10 | Sticky Navigation Bar | Sticky Navigation Bar On Scroll Using Html, CSS & JS | CSS,JavaScript | Done |
+| 11 | Collapse Menu | Collapsible left menu using Html, CSS & JS | CSS,JavaScript | Done |
 | 12 | Full page horizontal slide | Full page horizontal slide using Html, CSS & JS | CSS,JavaScript | Done |
+| 13 | Stats preview card component | Statistics preview card component using HTML and CSS. Design obtained from https://www.frontendmentor.io/ | CSS,JavaScript | Done |
