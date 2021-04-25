@@ -18,3 +18,4 @@ The 100 days of code challenge
 | 11 | Collapse Menu | Collapsible left menu using Html, CSS & JS | CSS,JavaScript | Done |
 | 12 | Full page horizontal slide | Full page horizontal slide using Html, CSS & JS | CSS,JavaScript | Done |
 | 13 | Stats preview card component | Statistics preview card component using HTML and CSS. Design obtained from https://www.frontendmentor.io/ | CSS,JavaScript | Done |
+| 14 | 3-column preview card component |3-column preview card component using HTML and CSS. Design obtained from https://www.frontendmentor.io/ | CSS,JavaScript | Done |
