@@ -1,0 +1,54 @@
+body {
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.canvas-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.canvas {
+  width: 400px;
+  height: 400px;
+
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+}
+
+.inactive {
+  width: 20px;
+  height: 20px;
+  background-color: #de4738;
+  cursor: pointer;
+  border: 1px solid #e24e3f;
+  transition: hover 1s ease;
+}
+
+.inactive:hover {
+  background-color: #ec5142;
+  background: #e24e3f;
+}
+
+.active {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.canvas-actions {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
