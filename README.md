@@ -20,3 +20,6 @@ The 100 days of code challenge
 | 13 | Stats preview card component | Statistics preview card component using HTML and CSS. Design obtained from https://www.frontendmentor.io/ | CSS,JavaScript | Done |
 | 14 | 3-column preview card component |3-column preview card component using HTML and CSS. Design obtained from https://www.frontendmentor.io/ | CSS,JavaScript | Done |
 | 15 | Animated menu | Animated menu using HTML,CSS and JavaScript. | CSS,JavaScript | Done |
+| 16 | Error popup | Errop popup using HTML,CSS and JavaScript. | CSS,JavaScript | Done |
+| 17 | Pixel art app | Simple Pixel art app using HTML,CSS and JavaScript. | CSS,JavaScript | Done |
+| 18 | Simple Memory Game | Simple Memory Game using HTML,CSS and JavaScript. | CSS,JavaScript | Done |
