@@ -23,3 +23,6 @@ The 100 days of code challenge
 | 16 | Error popup | Errop popup using HTML,CSS and JavaScript. | CSS,JavaScript | Done |
 | 17 | Pixel art app | Simple Pixel art app using HTML,CSS and JavaScript. | CSS,JavaScript | Done |
 | 18 | Simple Memory Game | Simple Memory Game using HTML,CSS and JavaScript. | CSS,JavaScript | Done |
+| 19 | Circle pulse and move with cursor | Circle pulse and move with cursor. | CSS,JavaScript | Done |
+| 20 | Counter | Simple Counter | CSS,JavaScript | Done |
+| 21 | Article preview component | Simple Article preview component | CSS,JavaScript | Done |
