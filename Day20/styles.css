@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+body {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #313a57;
+  color: #333;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 1rem;
+}
+
+.counter {
+  color: #407cb1;
+  background-color: #fff;
+  font-size: 2rem;
+  letter-spacing: 2pt;
+  padding: 0.5rem 0.5rem;
+  font-weight: 400;
+  border-radius: 5px;
+}
+
+.counter-actions {
+  position: relative;
+}
+
+.gg-play-pause {
+  box-sizing: border-box;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: 20px;
+  height: 20px;
+  border-left: 6px solid;
+  border-right: 6px solid;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 auto;
+  animation: 1s fade-in ease forwards;
+  position: absolute;
+  top: 0;
+  left: 0;
+  left: calc(50% - 10px);
+}
+
+.gg-play-pause.none {
+  animation: 0.3s fade-out linear forwards;
+}
+
+.gg-play-button {
+  box-sizing: border-box;
+  position: absolute;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 auto;
+  animation: 1s fade-in ease forwards;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 10px);
+}
+
+.gg-play-button::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  width: 0;
+  height: 20px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 20px solid;
+}
+
+.gg-play-button.none {
+  animation: 0.3s fade-out linear forwards;
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0);
+    display: none;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: scale(0);
+    display: none;
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
